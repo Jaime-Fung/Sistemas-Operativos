@@ -9,4 +9,5 @@ sudo mount -t glusterfs glus1:/assets /mnt/assets
 sudo mount -t glusterfs glus1:/backend /mnt/backend
 
 
-df -h | grep gluster
+
+df -h 

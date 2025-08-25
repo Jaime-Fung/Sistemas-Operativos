@@ -1,0 +1,8 @@
+sudo nano /etc/hosts
+
+Hay que pegar dentro de hosts 
+
+172.31.17.23   glus1
+172.31.31.220  glus2
+
+

@@ -1,0 +1,9 @@
+sudo nano /etc/fstab
+
+y dentro de fstab 
+
+glus1:/assets   /mnt/assets   glusterfs  defaults,_netdev,backupvolfile-server=glus2  0 0
+glus1:/backend /mnt/backend glusterfs  defaults,_netdev,backupvolfile-server=glus2  0 0
+
+sudo systemctl daemon-reload
+sudo mount -a
